@@ -1,0 +1,19 @@
+{
+  "main": {
+    "scope": "cpp",
+    "prefix": "template",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "\t// Delete when submitting",
+      "\tifstream in(\"./input.txt\");",
+      "\tcin.rdbuf(in.rdbuf());",
+      "",
+      "\t${0}",
+      "}"
+    ],
+    "description": "main function"
+  }
+}
